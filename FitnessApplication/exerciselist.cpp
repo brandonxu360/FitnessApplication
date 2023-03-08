@@ -26,7 +26,7 @@ ExerciseList::~ExerciseList() {
 	//free memory used by all nodes
 	ExerciseListNode* curr = head;
 
-	while (head != NULL) { //iterate through list until end
+	while (curr != NULL) { //iterate through list until end
 
 		ExerciseListNode* next = curr->getPNext(); //store next before deleting
 

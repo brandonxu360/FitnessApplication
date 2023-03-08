@@ -26,7 +26,7 @@ DietList::~DietList() {
 	//free memory used by all nodes
 	DietListNode* curr = head;
 
-	while (head != NULL) { //iterate until end of list
+	while (curr != NULL) { //iterate until end of list
 
 		DietListNode* next = curr->getPNext(); //store next before deleting
 
